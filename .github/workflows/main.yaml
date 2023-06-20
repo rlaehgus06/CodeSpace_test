@@ -52,5 +52,5 @@ jobs:build-test
       with:
         app-name: '${{AZURE_WEBAPP_NAME}}}}'
         
-        package: ./src/WebApi/publish
+        package: publish
 
